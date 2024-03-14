@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Main.astro"
+layout: "../layouts/Blog.astro"
 ---
 
 - Be present and enjoy the now
@@ -7,3 +7,4 @@ layout: "../layouts/Main.astro"
 - Health is wealth
 - Be deliberate
 - Laugh out loud
+
