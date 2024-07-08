@@ -1,22 +1,25 @@
 ---
-import Main from '../layouts/Main.astro'
-const profilePicture = 'https://i.imgur.com/JPGFE75.jpg'
+import Main from "../layouts/Main.astro";
+const profilePicture = "https://i.imgur.com/JPGFE75.jpg";
 ---
 
-<Main title='Katerina Fraw'>
-	<div class='profile'>
+<Main title="Katerina Fraw">
+	<div class="profile">
 		<img
-			class='profile-picture'
+			class="profile-picture"
 			src={profilePicture}
-			width='100px'
-			height='100px'
-			alt='Katerina Frau blog'
+			width="100px"
+			height="100px"
+			alt="Katerina Frau blog"
 		/>
 
-		<div class='profile-details'>
+		<div class="profile-details">
 			<h1>Frau Katerina</h1>
 			<p>VP of engineering at Google</p>
-			<p>Helping developers be excellent and succeed at scallable products.</p>
+			<p>
+				Helping developers be excellent and succeed at scallable
+				products.
+			</p>
 		</div>
 	</div>
 </Main>
@@ -44,5 +47,5 @@ const profilePicture = 'https://i.imgur.com/JPGFE75.jpg'
 </style>
 
 <script>
-	console.log('Hello Index')
+	console.log("Hello Index");
 </script>

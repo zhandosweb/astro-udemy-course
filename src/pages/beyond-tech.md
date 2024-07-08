@@ -1,5 +1,8 @@
 ---
-layout: ../layouts/Blog.astro
+layout: '../layouts/Blog.astro'
+title: "Beyond technology"
+subtitle: "Humans are multi-faceted. Beyond technology. I indulge in the following."
+poster: "/images/philosophies.jpg"
 ---
 
 - 5X Marathon
