@@ -1,0 +1,24 @@
+---
+const URL = "https://random-data-api.com/api/users/random_user?size=3";
+const response = await fetch(URL);
+const data = await response.json();
+---
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<h1>All users: {data.length}</h1>
+<ul>
+    {
+        data.map((user) => {
+            const gender = { user };
+            return (
+                <li>
+                    <span>{`${user.first_name} ${user.last_name}`}</span>
+                    <span>{gender === "Non-binary" && "😅"}</span>
+                </li>
+            );
+        })
+    }
+</ul>
